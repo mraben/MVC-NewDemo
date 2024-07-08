@@ -1,4 +1,4 @@
-package com.example.mvc.controller.activity;
+package com.example.mvc.ui.activity;
 
 import android.view.View;
 import android.widget.FrameLayout;
@@ -11,9 +11,9 @@ import androidx.fragment.app.Fragment;
 import com.example.mvc.R;
 import com.example.mvc.base.BaseActivity;
 import com.example.mvc.bean.TabEntity;
-import com.example.mvc.controller.fragment.HomeFragment;
-import com.example.mvc.controller.fragment.LikeFragment;
-import com.example.mvc.controller.fragment.SearchFragment;
+import com.example.mvc.ui.fragment.HomeFragment;
+import com.example.mvc.ui.fragment.LikeFragment;
+import com.example.mvc.ui.fragment.SearchFragment;
 import com.example.mvc.utils.ConstantTool;
 import com.example.mvc.utils.ToastUtil;
 import com.flyco.tablayout.CommonTabLayout;

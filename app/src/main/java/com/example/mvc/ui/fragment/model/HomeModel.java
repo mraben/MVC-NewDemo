@@ -1,18 +1,25 @@
-package com.example.mvc.controller.model;
+package com.example.mvc.ui.fragment.model;
 
 
 import com.example.mvc.base.Model;
 import com.example.mvc.base.RxSchedelers;
-import com.example.mvc.iview.OnHomeListener;
+import com.example.mvc.ui.fragment.controller.HomeController;
 
 import okhttp3.ResponseBody;
 
 /**
  * Description:
  */
-public class HomeModellmpl implements HomeModel {
+public class HomeModel implements HomeController {
+
+    private final OnCallBcakListener listener;
+
+    public HomeModel(OnCallBcakListener listener) {
+        this.listener = listener;
+    }
+
     @Override
-    public void getData(int id, OnHomeListener listener) {
+    public void getData(int id) {
         Model m = Model.getInstance();
         m.getApi().getempty().subscribe(new RxSchedelers<ResponseBody>() {
             @Override

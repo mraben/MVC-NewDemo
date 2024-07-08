@@ -1,4 +1,4 @@
-package com.example.mvc.controller.fragment;
+package com.example.mvc.ui.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,22 +8,22 @@ import android.widget.TextView;
 
 import com.example.mvc.R;
 import com.example.mvc.base.BaseFragment;
-import com.example.mvc.iview.OnHomeListener;
-import com.example.mvc.controller.model.HomeModellmpl;
+import com.example.mvc.ui.fragment.controller.HomeController;
+import com.example.mvc.ui.fragment.model.HomeModel;
 import com.example.mvc.utils.ToastUtil;
 
 /**
  * Description:
  */
-public class HomeFragment extends BaseFragment implements OnHomeListener {
+public class HomeFragment extends BaseFragment implements HomeController.OnCallBcakListener {
 
-    private HomeModellmpl hlmp;
+    private HomeModel hlmp;
     private  View homeInflate;
     private TextView tvToast;
 
     @Override
     protected View setLayoutId(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        hlmp = new HomeModellmpl();
+        hlmp = new HomeModel(this);
         homeInflate = View.inflate(getContext(), R.layout.homelayout, null);
         return homeInflate;
     }
@@ -32,7 +32,7 @@ public class HomeFragment extends BaseFragment implements OnHomeListener {
     protected void init() {
         super.init();
         findView();
-        hlmp.getData(0,this);
+        hlmp.getData(0);
     }
 
     private void findView(){

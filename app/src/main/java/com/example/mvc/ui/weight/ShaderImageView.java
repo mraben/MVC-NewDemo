@@ -1,4 +1,4 @@
-package com.example.mvc.controller.weight;
+package com.example.mvc.ui.weight;
 
 import android.annotation.TargetApi;
 import android.content.Context;

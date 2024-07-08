@@ -31,7 +31,7 @@
             android:layout_height="1px"
             android:src="@android:color/darker_gray" />
 
-        <com.example.mvc.controller.weight.ImageTextView
+        <com.example.mvc.ui.weight.ImageTextView
             android:id="@+id/left_home"
             android:layout_width="wrap_content"
             android:layout_height="26dp"
@@ -55,7 +55,7 @@
             android:layout_height="1px"
             android:src="@android:color/darker_gray" />
 
-        <com.example.mvc.controller.weight.ImageTextView
+        <com.example.mvc.ui.weight.ImageTextView
             android:id="@+id/left_like"
             android:layout_width="wrap_content"
             android:layout_height="26dp"
@@ -79,7 +79,7 @@
             android:layout_height="1px"
             android:src="@android:color/darker_gray" />
 
-        <com.example.mvc.controller.weight.ImageTextView
+        <com.example.mvc.ui.weight.ImageTextView
             android:id="@+id/left_search"
             android:layout_width="wrap_content"
             android:layout_height="26dp"
@@ -103,7 +103,7 @@
             android:layout_height="1px"
             android:src="@android:color/darker_gray" />
 
-        <com.example.mvc.controller.weight.ImageTextView
+        <com.example.mvc.ui.weight.ImageTextView
             android:id="@+id/left_suggest"
             android:layout_width="wrap_content"
             android:layout_height="26dp"
@@ -144,7 +144,7 @@
             android:layout_height="1px"
             android:src="@android:color/darker_gray" />
 
-        <com.example.mvc.controller.weight.ImageTextView
+        <com.example.mvc.ui.weight.ImageTextView
             android:id="@+id/left_setting"
             android:layout_width="wrap_content"
             android:layout_height="26dp"

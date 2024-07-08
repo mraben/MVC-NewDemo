@@ -1,4 +1,4 @@
-package com.example.mvc.controller.fragment;
+package com.example.mvc.ui.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,12 +11,13 @@ import com.example.mvc.base.BaseFragment;
 /**
  *
  */
-public class SearchFragment extends BaseFragment {
-    private View searchInflate;
+public class LikeFragment extends BaseFragment {
+
+    private View likeInflate;
 
     @Override
     protected View setLayoutId(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        searchInflate = View.inflate(getContext(),R.layout.searchlayout, null);
-        return searchInflate;
+        likeInflate = View.inflate(getContext(),R.layout.likelayout, null);
+        return likeInflate;
     }
 }
