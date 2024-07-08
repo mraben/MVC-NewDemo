@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:orientation="vertical"
+        tools:background="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:src="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="6dp"
+            android:text="@string/menu"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:src="@android:color/darker_gray" />
+
+        <com.example.mvc.controller.weight.ImageTextView
+            android:id="@+id/left_home"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingLeft="18dp"
+            android:paddingRight="35dp"
+            android:text="@string/home"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            app:drawable="@drawable/home"
+            app:drawableHeight="12dp"
+            app:drawableWidth="18dp"
+            app:position="1" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:src="@android:color/darker_gray" />
+
+        <com.example.mvc.controller.weight.ImageTextView
+            android:id="@+id/left_like"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingLeft="18dp"
+            android:paddingRight="35dp"
+            android:text="@string/like"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            app:drawable="@drawable/like"
+            app:drawableHeight="12dp"
+            app:drawableWidth="18dp"
+            app:position="1" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:src="@android:color/darker_gray" />
+
+        <com.example.mvc.controller.weight.ImageTextView
+            android:id="@+id/left_search"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingLeft="18dp"
+            android:paddingRight="35dp"
+            android:text="@string/search"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            app:drawable="@drawable/search_tab"
+            app:drawableHeight="12dp"
+            app:drawableWidth="18dp"
+            app:position="1" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:src="@android:color/darker_gray" />
+
+        <com.example.mvc.controller.weight.ImageTextView
+            android:id="@+id/left_suggest"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingLeft="18dp"
+            android:paddingRight="35dp"
+            android:text="@string/ProblemsAndProposals"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            app:drawable="@drawable/ding"
+            app:drawableHeight="12dp"
+            app:drawableWidth="18dp"
+            app:position="1" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="20dp"
+            android:src="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/setting"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:src="@android:color/darker_gray" />
+
+        <com.example.mvc.controller.weight.ImageTextView
+            android:id="@+id/left_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingLeft="18dp"
+            android:paddingRight="35dp"
+            android:text="@string/setting"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            app:drawable="@drawable/setting"
+            app:drawableHeight="12dp"
+            app:drawableWidth="18dp"
+            app:position="1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@android:color/darker_gray" />
+
+
+        <Button
+            android:id="@+id/left_shape"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/left_button_shape"
+            android:gravity="center"
+            android:text="@string/ShapeFriend"
+            android:textColor="@android:color/background_dark"
+            android:textSize="15sp" />
+    </LinearLayout>
+</merge>
